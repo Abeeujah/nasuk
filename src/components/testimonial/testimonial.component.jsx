@@ -10,7 +10,7 @@ import {
   faQuoteRight,
 } from "@fortawesome/free-solid-svg-icons";
 
-import Image from "../../images/hunter-so-0aDppK_puk0-unsplash.webp";
+import Image from "../../images/realtor-image.webp";
 import "./testimonial.styles.css";
 import Button from "../button/button.component";
 

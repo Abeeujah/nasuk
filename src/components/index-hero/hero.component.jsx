@@ -1,6 +1,6 @@
 import { Container } from "react-bootstrap";
 
-import Image from "../../images/index-hero.webp";
+import Image from "../../images/realtor-image.webp";
 
 import "./hero.styles.css";
 import { Link } from "react-router-dom";

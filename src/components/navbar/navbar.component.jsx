@@ -1,6 +1,6 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
 
-import Image from "../../images/naskaxeuk.webp";
+import Image from "../../images/nasuk.webp";
 
 import "./navbar.styles.css";
 import { Link } from "react-router-dom";
