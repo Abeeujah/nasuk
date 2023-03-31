@@ -1,0 +1,33 @@
+.gallery-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.gallery-item {
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  height: 8rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+}
+
+.gallery-item-color {
+  background-color: #fff;
+  color: #000;
+}
+
+.gallery-item-color:hover {
+  background-color: var(--color-nasblue);
+  color: #fff;
+}
+
+@media (max-width: 693px) {
+  .gallery-items{
+    flex-direction: column;
+  }
+}

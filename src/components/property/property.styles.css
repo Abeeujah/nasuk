@@ -1,0 +1,17 @@
+.properties-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+@media (max-width: 1023px) {
+  .properties-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 481px) {
+  .properties-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

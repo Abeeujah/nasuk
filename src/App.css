@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+  --color-nasblue: #160858;
+  --color-nasred: #fe0000;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.black-background {
+  background: #000 !important;
+}
+
+.white-background {
+  background: #fff !important;
+}
+
+.nasblue-bg{
+  background: var(--color-nasblue);
+}
+
+.nasred-bg{
+  background: var(--color-nasred);
+}
+
+.nasblue-text{
+  color: var(--color-nasblue);
+}
+
+.nasred-text{
+  color: var(--color-nasred);
+}

@@ -1,0 +1,12 @@
+.pitch-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    place-items: center;
+}
+
+@media (max-width: 693px) {
+    .pitch-grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

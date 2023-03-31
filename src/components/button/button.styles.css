@@ -1,0 +1,10 @@
+.control-btn{
+    background: var(--color-nasred) !important;
+    color: #fff !important;
+    transition: all 0.5s ease;
+}
+
+.control-btn:hover{
+    background: #fff !important;
+    color: #000 !important;
+}

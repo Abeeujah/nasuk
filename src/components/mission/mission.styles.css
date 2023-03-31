@@ -1,0 +1,42 @@
+.mission-mobile-img,
+.mission-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+}
+
+.mission-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  min-height: 10rem;
+}
+
+.hide-overflow {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.hover-scale {
+  transition: all 0.3s ease-in-out;
+}
+
+.hover-scale:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 693px) {
+  .mission-container {
+    display: none;
+  }
+}
+
+@media (min-width: 694px) {
+  .mission-mobile-container {
+    display: none;
+  }
+}

@@ -1,0 +1,17 @@
+@media (max-width: 693px) {
+  .pages-height {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 1439px) {
+  .pages-height {
+    min-height: 70vh;
+  }
+}
+
+@media (min-width: 1440px) {
+  .pages-height {
+    min-height: 50vh;
+  }
+}

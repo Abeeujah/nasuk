@@ -1,0 +1,47 @@
+.place-center {
+  display: grid;
+  place-items: center;
+}
+
+.testimony {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimony-imgh {
+  height: 5rem;
+  width: 5rem;
+}
+
+.rondo {
+  border-radius: 50%;
+}
+
+.bio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .testimony {
+    width: 60%;
+  }
+}
+@media (max-width: 639px) {
+  .testimony {
+    flex-direction: column;
+    text-align: center;
+  }
+}

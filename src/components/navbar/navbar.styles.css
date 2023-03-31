@@ -1,0 +1,21 @@
+.nav-cta, .cta-btn {
+  color: #fff !important;
+}
+
+.nav-cta:hover {
+  color: #000 !important;
+  background: none !important;
+  border: 2px solid #000 !important;
+}
+
+.brand-imagery {
+  width: 120px;
+  height: 100%;
+  object-fit: contain;
+}
+
+.cta-btn:hover {
+  color: var(--color-nasblue) !important;
+  background: none !important;
+  border: 2px solid var(--color-nasblue) !important;
+}
