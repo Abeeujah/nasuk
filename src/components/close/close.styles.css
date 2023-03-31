@@ -32,7 +32,7 @@
   color: #fff !important;
 }
 
-.cta-danger:hover {
+.cta-danger:hover, .cta-danger:focus {
   color: var(--color-nasred) !important;
   border: 2px solid var(--color-nasred) !important;
 }

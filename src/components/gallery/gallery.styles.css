@@ -21,9 +21,10 @@
   color: #000;
 }
 
-.gallery-item-color:hover {
+.gallery-item-color:hover, .gallery-item-color:focus {
   background-color: var(--color-nasblue);
   color: #fff;
+  outline: none;
 }
 
 @media (max-width: 693px) {

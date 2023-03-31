@@ -16,13 +16,13 @@ const NavigationBar = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="justify-content-center flex-grow-1 pe-3">
-              <Link to={"/about"} className="nav-link text-black">
+              <Link to={"/about"} className="nav-link navbar-nav">
                 About
               </Link>
-              <Link to={"/properties"} className="nav-link px-lg-5 text-black">
+              <Link to={"/properties"} className="nav-link px-lg-5 navbar-nav">
                 Properties
               </Link>
-              <Link to={"/contact"} className="nav-link text-black">
+              <Link to={"/contact"} className="nav-link navbar-nav">
                 Contact
               </Link>
             </Nav>
